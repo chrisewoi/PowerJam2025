@@ -65,6 +65,7 @@ public class GameUIManager : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene(1);
+        Time.timeScale = 1;
     }
 
     public void MainMenuB()

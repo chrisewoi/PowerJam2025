@@ -5,6 +5,7 @@ public class BugPickup : MonoBehaviour
 {
     public static int pickupCount;
     public GameUIManager gameUIManager;
+    public float PickupTime;
 
     private void Start()
     {
@@ -18,7 +19,7 @@ public class BugPickup : MonoBehaviour
             pickupCount++;
             print("pickup! " + pickupCount);
             Destroy(other.gameObject);
-            gameUIManager.remainingTime += 5;
+            gameUIManager.remainingTime += PickupTime;
         }
     }
 }
