@@ -4,6 +4,7 @@ using UnityEngine;
 public class BugPickup : MonoBehaviour
 {
     public static int pickupCount;
+    public GameUIManager gameUIManager;
 
     private void Start()
     {
@@ -17,6 +18,7 @@ public class BugPickup : MonoBehaviour
             pickupCount++;
             print("pickup! " + pickupCount);
             Destroy(other.gameObject);
+            gameUIManager.remainingTime += 5;
         }
     }
 }
