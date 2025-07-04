@@ -12,15 +12,15 @@ public class BulbLight : MonoBehaviour
     public Material filamentOff;
     public Renderer filament;
     public Light light;
+    private float lightIntensityDefault;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         switchTrigger = !lightswitch;
+        lightIntensityDefault = light.intensity;
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(lightswitch != switchTrigger)
@@ -32,12 +32,19 @@ public class BulbLight : MonoBehaviour
             if (lightswitch)
             {
                 timer = lightTimer;
+                light.intensity = lightIntensityDefault;
             }
         }
 
         if (timer == 0 && lightswitch)
         {
             lightswitch = false;
+        }
+        
+        // Light dims before going out
+        if (timer < 1f)
+        {
+            light.intensity = lightIntensityDefault * timer;
         }
 
         timer -= Time.deltaTime;
