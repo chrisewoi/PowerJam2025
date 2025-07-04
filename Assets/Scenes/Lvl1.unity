@@ -272,6 +272,7 @@ MonoBehaviour:
   localStartingPos: {x: 0, y: 0, z: 0}
   zoomAmount: 0
   zoomScale: 5
+  zoomTime: 0.1
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,7 +620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameUIManager: {fileID: 1910538349}
-  PickupTime: 5
+  pickupTime: 5
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0

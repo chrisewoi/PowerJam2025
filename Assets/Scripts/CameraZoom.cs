@@ -6,21 +6,26 @@ public class CameraZoom : MonoBehaviour
     public Vector3 localStartingPos;
     public float zoomAmount;
     public float zoomScale;
+
+    public float zoomTime;
+    private Vector3 target;
+    private Vector3 v;
     
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         bugMovement = FindAnyObjectByType<BugMovement>();
         localStartingPos = transform.localPosition;
+        target = transform.position;
     }
 
-    // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         zoomAmount = bugMovement.GetSpeedMult();
         //transform.position = transform.TransformVector(bugMovement.transform.position);
-        transform.position = bugMovement.transform.position + localStartingPos;
-        transform.position += transform.TransformDirection(zoomAmount * zoomScale * -Vector3.forward);
+        target = bugMovement.transform.position + localStartingPos;
+        target += transform.TransformDirection(zoomAmount * zoomScale * -Vector3.forward);
         
+        
+        transform.position = Vector3.SmoothDamp(transform.position, target, ref v, zoomTime);
     }
 }

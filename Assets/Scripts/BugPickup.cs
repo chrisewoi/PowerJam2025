@@ -1,11 +1,12 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class BugPickup : MonoBehaviour
 {
     public static int pickupCount;
     public GameUIManager gameUIManager;
-    public float PickupTime;
+    [FormerlySerializedAs("PickupTime")] public float pickupTime;
 
     private void Start()
     {
@@ -19,7 +20,7 @@ public class BugPickup : MonoBehaviour
             pickupCount++;
             print("pickup! " + pickupCount);
             Destroy(other.gameObject);
-            gameUIManager.remainingTime += PickupTime;
+            gameUIManager.remainingTime += pickupTime;
         }
     }
 }
