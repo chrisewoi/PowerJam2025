@@ -3,7 +3,17 @@ guid: 6dd51a6d67164a74083a4f671fc730c9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_CapacitorRed
+    second: {fileID: 2100000, guid: b501d94efdd1ee84da86abd7d44769fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Silver
+    second: {fileID: 2100000, guid: 6f032504dd659524ba3e1aebf9190f83, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
