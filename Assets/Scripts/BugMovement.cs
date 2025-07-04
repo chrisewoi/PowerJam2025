@@ -6,6 +6,7 @@ public class BugMovement : MonoBehaviour
     public Vector3 inputAxis;
     public float baseSpeed;
     public bool grounded;
+    private bool groundedTrigger;
     private Rigidbody rb;
     private Vector2 bugDirection;
     private static int pickupCount => BugPickup.pickupCount;
@@ -27,6 +28,9 @@ public class BugMovement : MonoBehaviour
     private float deltaY;
     private bool ungroundedTrigger;
 
+    public Light underLight;
+    
+
     private GameObject model => transform.GetChild(0).gameObject;
 
 
@@ -38,6 +42,7 @@ public class BugMovement : MonoBehaviour
         pickupPower = 1.5f;
         bugDirection = transform.forward;
         ungroundedTrigger = false;
+        groundedTrigger = !grounded;
     }
 
     // Update is called once per frame
@@ -49,6 +54,7 @@ public class BugMovement : MonoBehaviour
         Gravity();
         BugDirection();
         AirMomentum();
+        DownLight();
     }
 
     private void GetInput()
@@ -129,6 +135,15 @@ public class BugMovement : MonoBehaviour
         }
     }
 
+    private void DownLight()
+    {
+        if (grounded != groundedTrigger)
+        {
+            groundedTrigger = grounded;
+            underLight.gameObject.SetActive(!grounded);
+        }
+    }
+
     public float GetSpeed()
     {
         return rb.linearVelocity.magnitude;
@@ -157,6 +172,7 @@ public class BugMovement : MonoBehaviour
         if (other.gameObject.CompareTag("Ground"))
         {
             grounded = false;
+            
         }
     }
 
