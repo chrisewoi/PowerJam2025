@@ -3,7 +3,17 @@ guid: 9bec489771ea72d46a2b2fe7ba7f3add
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BugLegGrey
+    second: {fileID: 2100000, guid: 6f032504dd659524ba3e1aebf9190f83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standardSurface1
+    second: {fileID: 2100000, guid: 54226842185008742b37bd12fffe04a2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
