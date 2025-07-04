@@ -84,6 +84,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GEO_Resistor
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9bec489771ea72d46a2b2fe7ba7f3add, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
