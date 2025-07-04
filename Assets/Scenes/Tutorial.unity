@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DiodeRed
       objectReference: {fileID: 0}
+    - target: {fileID: 3459527640533123843, guid: 7c9a1f7a0cf91f9468dcd1f92c49bac8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5483347337061689637, guid: 7c9a1f7a0cf91f9468dcd1f92c49bac8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.890474
@@ -193,6 +197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Transformer
       objectReference: {fileID: 0}
+    - target: {fileID: 3048018140080416926, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7963983906072655265, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -254,6 +262,10 @@ PrefabInstance:
     - target: {fileID: 451435362867900279, guid: 9eb9bc75db323e54bb7e73a88328318e, type: 3}
       propertyPath: m_Name
       value: Resistor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 451435362867900279, guid: 9eb9bc75db323e54bb7e73a88328318e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3288561551788823413, guid: 9eb9bc75db323e54bb7e73a88328318e, type: 3}
       propertyPath: m_LocalScale.x
@@ -328,6 +340,10 @@ PrefabInstance:
     - target: {fileID: 3459527640533123843, guid: 7c9a1f7a0cf91f9468dcd1f92c49bac8, type: 3}
       propertyPath: m_Name
       value: DiodeRed (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3459527640533123843, guid: 7c9a1f7a0cf91f9468dcd1f92c49bac8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5483347337061689637, guid: 7c9a1f7a0cf91f9468dcd1f92c49bac8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -426,6 +442,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RamSlot
       objectReference: {fileID: 0}
+    - target: {fileID: 3599711914623228201, guid: 52bb5ee3b1407814393415165dd42305, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3988049294687277077, guid: 52bb5ee3b1407814393415165dd42305, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14
@@ -487,6 +507,10 @@ PrefabInstance:
     - target: {fileID: 3459527640533123843, guid: e87c91024201b18459458610c30c1c5f, type: 3}
       propertyPath: m_Name
       value: DiodeOrange
+      objectReference: {fileID: 0}
+    - target: {fileID: 3459527640533123843, guid: e87c91024201b18459458610c30c1c5f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5483347337061689637, guid: e87c91024201b18459458610c30c1c5f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -550,6 +574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_10x10 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7112848889609580183, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20
@@ -611,6 +639,10 @@ PrefabInstance:
     - target: {fileID: 451435362867900279, guid: 9eb9bc75db323e54bb7e73a88328318e, type: 3}
       propertyPath: m_Name
       value: Resistor
+      objectReference: {fileID: 0}
+    - target: {fileID: 451435362867900279, guid: 9eb9bc75db323e54bb7e73a88328318e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3288561551788823413, guid: 9eb9bc75db323e54bb7e73a88328318e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -674,6 +706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HeatSink (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5593243519581400, guid: 38c412fee711e4c4bab01ea37f03bca0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4720995682736976115, guid: 38c412fee711e4c4bab01ea37f03bca0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.25
@@ -736,6 +772,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_10x10 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7112848889609580183, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10
@@ -797,6 +837,10 @@ PrefabInstance:
     - target: {fileID: 5593243519581400, guid: 38c412fee711e4c4bab01ea37f03bca0, type: 3}
       propertyPath: m_Name
       value: HeatSink (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5593243519581400, guid: 38c412fee711e4c4bab01ea37f03bca0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4720995682736976115, guid: 38c412fee711e4c4bab01ea37f03bca0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -912,6 +956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inductor (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6310712490644049552, guid: e5bcd944d2a475c4e8ae4d52a6682f58, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -933,6 +981,10 @@ PrefabInstance:
     - target: {fileID: 1448076274612397625, guid: 04b6a0a417a927c46adde52bb70f4a1b, type: 3}
       propertyPath: m_Name
       value: RamRamp_LONG (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1448076274612397625, guid: 04b6a0a417a927c46adde52bb70f4a1b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8382615600484056897, guid: 04b6a0a417a927c46adde52bb70f4a1b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1053,6 +1105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RamSlot (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3599711914623228201, guid: 52bb5ee3b1407814393415165dd42305, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3988049294687277077, guid: 52bb5ee3b1407814393415165dd42305, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13
@@ -1114,6 +1170,10 @@ PrefabInstance:
     - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_Name
       value: Floor_10x10 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7112848889609580183, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1177,6 +1237,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DiodeBlue
       objectReference: {fileID: 0}
+    - target: {fileID: 3459527640533123843, guid: 76279b4bb78f6c64f9557ba43679c6a6, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5483347337061689637, guid: 76279b4bb78f6c64f9557ba43679c6a6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.8704643
@@ -1238,6 +1302,10 @@ PrefabInstance:
     - target: {fileID: 3599711914623228201, guid: 52bb5ee3b1407814393415165dd42305, type: 3}
       propertyPath: m_Name
       value: RamSlot (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599711914623228201, guid: 52bb5ee3b1407814393415165dd42305, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3988049294687277077, guid: 52bb5ee3b1407814393415165dd42305, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1301,6 +1369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RamSlot (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3599711914623228201, guid: 52bb5ee3b1407814393415165dd42305, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3988049294687277077, guid: 52bb5ee3b1407814393415165dd42305, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.7
@@ -1362,6 +1434,10 @@ PrefabInstance:
     - target: {fileID: 3048018140080416926, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
       propertyPath: m_Name
       value: Transformer (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3048018140080416926, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7963983906072655265, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
       propertyPath: m_LocalScale.x
@@ -1436,6 +1512,10 @@ PrefabInstance:
     - target: {fileID: 3459527640533123843, guid: ce48ecd589bacf943ae56f6dabc0cfc9, type: 3}
       propertyPath: m_Name
       value: DiodeGreen (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3459527640533123843, guid: ce48ecd589bacf943ae56f6dabc0cfc9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5483347337061689637, guid: ce48ecd589bacf943ae56f6dabc0cfc9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1730,63 +1810,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2987391609088600930, guid: 1e1aa457becb19245b3089b84b8c5f56, type: 3}
   m_PrefabInstance: {fileID: 431930572}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &444760938
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4821395779612469129, guid: bf2dd48a08515a044b706d4b0c816723, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4821395779612469129, guid: bf2dd48a08515a044b706d4b0c816723, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4821395779612469129, guid: bf2dd48a08515a044b706d4b0c816723, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4821395779612469129, guid: bf2dd48a08515a044b706d4b0c816723, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4821395779612469129, guid: bf2dd48a08515a044b706d4b0c816723, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4821395779612469129, guid: bf2dd48a08515a044b706d4b0c816723, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4821395779612469129, guid: bf2dd48a08515a044b706d4b0c816723, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4821395779612469129, guid: bf2dd48a08515a044b706d4b0c816723, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4821395779612469129, guid: bf2dd48a08515a044b706d4b0c816723, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4821395779612469129, guid: bf2dd48a08515a044b706d4b0c816723, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5011723964407688867, guid: bf2dd48a08515a044b706d4b0c816723, type: 3}
-      propertyPath: m_Name
-      value: Gregor
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: bf2dd48a08515a044b706d4b0c816723, type: 3}
 --- !u!1001 &511077871
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1798,6 +1821,10 @@ PrefabInstance:
     - target: {fileID: 3459527640533123843, guid: ce48ecd589bacf943ae56f6dabc0cfc9, type: 3}
       propertyPath: m_Name
       value: DiodeGreen (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3459527640533123843, guid: ce48ecd589bacf943ae56f6dabc0cfc9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5483347337061689637, guid: ce48ecd589bacf943ae56f6dabc0cfc9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1861,6 +1888,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DiodeBlue
       objectReference: {fileID: 0}
+    - target: {fileID: 3459527640533123843, guid: 76279b4bb78f6c64f9557ba43679c6a6, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5483347337061689637, guid: 76279b4bb78f6c64f9557ba43679c6a6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.873821
@@ -1923,6 +1954,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RamRamp_LONG
       objectReference: {fileID: 0}
+    - target: {fileID: 1448076274612397625, guid: 04b6a0a417a927c46adde52bb70f4a1b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8382615600484056897, guid: 04b6a0a417a927c46adde52bb70f4a1b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13
@@ -1984,6 +2019,10 @@ PrefabInstance:
     - target: {fileID: 3048018140080416926, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
       propertyPath: m_Name
       value: Transformer (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3048018140080416926, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7963983906072655265, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2108,6 +2147,10 @@ PrefabInstance:
     - target: {fileID: 4231542490182643022, guid: 79e00961c45158641a4b98b79453e7a1, type: 3}
       propertyPath: m_Name
       value: Microchip
+      objectReference: {fileID: 0}
+    - target: {fileID: 4231542490182643022, guid: 79e00961c45158641a4b98b79453e7a1, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5398606238733158904, guid: 79e00961c45158641a4b98b79453e7a1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2335,6 +2378,10 @@ PrefabInstance:
     - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_Name
       value: Floor_10x10 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7112848889609580183, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2624,6 +2671,10 @@ PrefabInstance:
     - target: {fileID: 3599711914623228201, guid: 52bb5ee3b1407814393415165dd42305, type: 3}
       propertyPath: m_Name
       value: RamSlot (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3599711914623228201, guid: 52bb5ee3b1407814393415165dd42305, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3988049294687277077, guid: 52bb5ee3b1407814393415165dd42305, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2923,6 +2974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_10x10 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7112848889609580183, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2984,6 +3039,10 @@ PrefabInstance:
     - target: {fileID: 3459527640533123843, guid: ce48ecd589bacf943ae56f6dabc0cfc9, type: 3}
       propertyPath: m_Name
       value: DiodeGreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 3459527640533123843, guid: ce48ecd589bacf943ae56f6dabc0cfc9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5483347337061689637, guid: ce48ecd589bacf943ae56f6dabc0cfc9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3108,6 +3167,10 @@ PrefabInstance:
     - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_Name
       value: Floor_10x10 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7112848889609580183, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3297,6 +3360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HeatSink
       objectReference: {fileID: 0}
+    - target: {fileID: 5593243519581400, guid: 38c412fee711e4c4bab01ea37f03bca0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4720995682736976115, guid: 38c412fee711e4c4bab01ea37f03bca0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.806519
@@ -3450,6 +3517,10 @@ PrefabInstance:
     - target: {fileID: 3048018140080416926, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
       propertyPath: m_Name
       value: Transformer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3048018140080416926, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7963983906072655265, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
       propertyPath: m_LocalScale.x
@@ -3844,6 +3915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_10x10 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7112848889609580183, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3906,6 +3981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DiodeGreen
       objectReference: {fileID: 0}
+    - target: {fileID: 3459527640533123843, guid: ce48ecd589bacf943ae56f6dabc0cfc9, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5483347337061689637, guid: ce48ecd589bacf943ae56f6dabc0cfc9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.10125
@@ -3967,6 +4046,10 @@ PrefabInstance:
     - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_Name
       value: Floor_10x10 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7112848889609580183, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4132,6 +4215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RamRamp_LONG (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1448076274612397625, guid: 04b6a0a417a927c46adde52bb70f4a1b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8382615600484056897, guid: 04b6a0a417a927c46adde52bb70f4a1b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14
@@ -4193,7 +4280,7 @@ GameObject:
   - component: {fileID: 1205914373}
   m_Layer: 0
   m_Name: Ramps (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4232,6 +4319,10 @@ PrefabInstance:
     - target: {fileID: 3459527640533123843, guid: 7c9a1f7a0cf91f9468dcd1f92c49bac8, type: 3}
       propertyPath: m_Name
       value: DiodeRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 3459527640533123843, guid: 7c9a1f7a0cf91f9468dcd1f92c49bac8, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5483347337061689637, guid: 7c9a1f7a0cf91f9468dcd1f92c49bac8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4295,6 +4386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RamRamp_LONG (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1448076274612397625, guid: 04b6a0a417a927c46adde52bb70f4a1b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8382615600484056897, guid: 04b6a0a417a927c46adde52bb70f4a1b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14
@@ -4356,6 +4451,10 @@ PrefabInstance:
     - target: {fileID: 2396298120358628299, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
       propertyPath: m_Name
       value: CapacitorDoors
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396298120358628299, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4002960011808658314, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4423,6 +4522,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_10x10 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7112848889609580183, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20
@@ -4484,6 +4587,10 @@ PrefabInstance:
     - target: {fileID: 451435362867900279, guid: 9eb9bc75db323e54bb7e73a88328318e, type: 3}
       propertyPath: m_Name
       value: Resistor
+      objectReference: {fileID: 0}
+    - target: {fileID: 451435362867900279, guid: 9eb9bc75db323e54bb7e73a88328318e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3288561551788823413, guid: 9eb9bc75db323e54bb7e73a88328318e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4706,6 +4813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inductor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6310712490644049552, guid: e5bcd944d2a475c4e8ae4d52a6682f58, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4847,6 +4958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_10x10
       objectReference: {fileID: 0}
+    - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7112848889609580183, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10
@@ -4961,6 +5076,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inductor (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6310712490644049552, guid: e5bcd944d2a475c4e8ae4d52a6682f58, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5051,6 +5170,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49ef95d78c87e7143b3e24806487dc87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1411642999
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2754299435895663484, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.9999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 2754299435895663484, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.99999964
+      objectReference: {fileID: 0}
+    - target: {fileID: 2754299435895663484, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2754299435895663484, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2754299435895663484, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2754299435895663484, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2754299435895663484, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2754299435895663484, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2754299435895663484, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2754299435895663484, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3246224630152858280, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_Name
+      value: PLAYERBugModel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
 --- !u!1 &1416774152
 GameObject:
   m_ObjectHideFlags: 0
@@ -5062,7 +5238,7 @@ GameObject:
   - component: {fileID: 1416774153}
   m_Layer: 0
   m_Name: Ramps
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5096,6 +5272,10 @@ PrefabInstance:
     - target: {fileID: 3459527640533123843, guid: e87c91024201b18459458610c30c1c5f, type: 3}
       propertyPath: m_Name
       value: DiodeOrange
+      objectReference: {fileID: 0}
+    - target: {fileID: 3459527640533123843, guid: e87c91024201b18459458610c30c1c5f, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5483347337061689637, guid: e87c91024201b18459458610c30c1c5f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5466,6 +5646,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Resistor
       objectReference: {fileID: 0}
+    - target: {fileID: 451435362867900279, guid: 9eb9bc75db323e54bb7e73a88328318e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3288561551788823413, guid: 9eb9bc75db323e54bb7e73a88328318e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.972235
@@ -5527,6 +5711,10 @@ PrefabInstance:
     - target: {fileID: 1448076274612397625, guid: 04b6a0a417a927c46adde52bb70f4a1b, type: 3}
       propertyPath: m_Name
       value: RamRamp_LONG (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1448076274612397625, guid: 04b6a0a417a927c46adde52bb70f4a1b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8382615600484056897, guid: 04b6a0a417a927c46adde52bb70f4a1b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5590,6 +5778,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Microchip (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4231542490182643022, guid: 79e00961c45158641a4b98b79453e7a1, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5398606238733158904, guid: 79e00961c45158641a4b98b79453e7a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13
@@ -5651,6 +5843,10 @@ PrefabInstance:
     - target: {fileID: 3048018140080416926, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
       propertyPath: m_Name
       value: Transformer (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3048018140080416926, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7963983906072655265, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
       propertyPath: m_LocalScale.x
@@ -5725,6 +5921,10 @@ PrefabInstance:
     - target: {fileID: 451435362867900279, guid: 9eb9bc75db323e54bb7e73a88328318e, type: 3}
       propertyPath: m_Name
       value: Resistor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 451435362867900279, guid: 9eb9bc75db323e54bb7e73a88328318e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3288561551788823413, guid: 9eb9bc75db323e54bb7e73a88328318e, type: 3}
       propertyPath: m_LocalScale.x
@@ -5866,6 +6066,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_10x10 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7112848889609580183, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5927,6 +6131,10 @@ PrefabInstance:
     - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_Name
       value: Floor_10x10 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7112848889609580183, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6035,6 +6243,10 @@ PrefabInstance:
     - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_Name
       value: Floor_10x10 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7112848889609580183, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6150,6 +6362,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RamRamp_SHORT
       objectReference: {fileID: 0}
+    - target: {fileID: 6334480798033502450, guid: 1e1aa457becb19245b3089b84b8c5f56, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6166,6 +6382,10 @@ PrefabInstance:
     - target: {fileID: 1448076274612397625, guid: 04b6a0a417a927c46adde52bb70f4a1b, type: 3}
       propertyPath: m_Name
       value: RamRamp_LONG (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1448076274612397625, guid: 04b6a0a417a927c46adde52bb70f4a1b, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 8382615600484056897, guid: 04b6a0a417a927c46adde52bb70f4a1b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6228,6 +6448,10 @@ PrefabInstance:
     - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_Name
       value: Floor_10x10 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7112848889609580183, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6457,6 +6681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inductor
       objectReference: {fileID: 0}
+    - target: {fileID: 6310712490644049552, guid: e5bcd944d2a475c4e8ae4d52a6682f58, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6478,6 +6706,10 @@ PrefabInstance:
     - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_Name
       value: Floor_10x10 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6583454692566790634, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7112848889609580183, guid: 45876fe2ffaa9b9478ceab564b893384, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6540,6 +6772,10 @@ PrefabInstance:
     - target: {fileID: 2396298120358628299, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
       propertyPath: m_Name
       value: CapacitorDoors (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396298120358628299, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4002960011808658314, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6606,6 +6842,10 @@ PrefabInstance:
     - target: {fileID: 3048018140080416926, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
       propertyPath: m_Name
       value: Transformer (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3048018140080416926, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7963983906072655265, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6721,6 +6961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Inductor (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6310712490644049552, guid: e5bcd944d2a475c4e8ae4d52a6682f58, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6799,6 +7043,10 @@ PrefabInstance:
     - target: {fileID: 3048018140080416926, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
       propertyPath: m_Name
       value: Transformer (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3048018140080416926, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7963983906072655265, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6923,6 +7171,10 @@ PrefabInstance:
     - target: {fileID: 4231542490182643022, guid: 79e00961c45158641a4b98b79453e7a1, type: 3}
       propertyPath: m_Name
       value: Microchip (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4231542490182643022, guid: 79e00961c45158641a4b98b79453e7a1, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5398606238733158904, guid: 79e00961c45158641a4b98b79453e7a1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7067,6 +7319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HeatSink
       objectReference: {fileID: 0}
+    - target: {fileID: 5593243519581400, guid: 38c412fee711e4c4bab01ea37f03bca0, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 4720995682736976115, guid: 38c412fee711e4c4bab01ea37f03bca0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13
@@ -7129,6 +7385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RamSlot (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3599711914623228201, guid: 52bb5ee3b1407814393415165dd42305, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3988049294687277077, guid: 52bb5ee3b1407814393415165dd42305, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13
@@ -7190,6 +7450,10 @@ PrefabInstance:
     - target: {fileID: 3048018140080416926, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
       propertyPath: m_Name
       value: Transformer (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3048018140080416926, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7963983906072655265, guid: b45f53eeabb5ee047a28edd280859172, type: 3}
       propertyPath: m_LocalScale.x
@@ -7260,7 +7524,7 @@ SceneRoots:
   - {fileID: 1909197098}
   - {fileID: 1477451011}
   - {fileID: 32627171}
-  - {fileID: 444760938}
+  - {fileID: 1411642999}
   - {fileID: 585457075}
   - {fileID: 1784115222}
   - {fileID: 2081900640}
