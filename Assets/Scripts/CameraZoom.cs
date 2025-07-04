@@ -4,6 +4,9 @@ public class CameraZoom : MonoBehaviour
 {
     private BugMovement bugMovement;
     public Vector3 localStartingPos;
+    float fovDefault = 60;
+    float fovCurrent;
+    public float fovMultiplier;
     public float zoomAmount;
     public float zoomScale;
 
@@ -15,6 +18,7 @@ public class CameraZoom : MonoBehaviour
 
     void Start()
     {
+        fovCurrent = fovDefault;
         bugMovement = FindAnyObjectByType<BugMovement>();
         localStartingPos = transform.localPosition;
         target = transform.position;
@@ -28,6 +32,7 @@ public class CameraZoom : MonoBehaviour
         //target += transform.TransformDirection(zoomAmount * zoomScale * -Vector3.forward);
 
         transform.position = Vector3.SmoothDamp(transform.position, target, ref v, zoomTime);
+        Camera.main.fieldOfView = fovCurrent * fovMultiplier;
     }
 
     private void FixedUpdate()
