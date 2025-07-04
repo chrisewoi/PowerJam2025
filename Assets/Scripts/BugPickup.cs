@@ -6,7 +6,7 @@ public class BugPickup : MonoBehaviour
 {
     public static int pickupCount;
     public GameUIManager gameUIManager;
-    [FormerlySerializedAs("PickupTime")] public float pickupTime;
+    public float pickupTime;
 
     private void Start()
     {

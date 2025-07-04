@@ -22,10 +22,13 @@ public class BugMovement : MonoBehaviour
     [SerializeField] private float smoothTime;
     private float _currentVelocity;
 
+    private GameObject model => transform.GetChild(0).gameObject;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+
         rb = GetComponent<Rigidbody>();
         pickupPower = 1.5f;
         bugDirection = transform.forward;
@@ -79,9 +82,9 @@ public class BugMovement : MonoBehaviour
     {
         if (inputAxis.sqrMagnitude == 0) return;
         
-        var bugtargetangle = Mathf.Atan2(inputAxis.y, inputAxis.x) * Mathf.Rad2Deg;
-        var angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, bugtargetangle, ref _currentVelocity, smoothTime);
-        transform.rotation = Quaternion.Euler(0f, angle, 0f);
+        var bugtargetangle = Mathf.Atan2(inputAxis.x, inputAxis.y) * Mathf.Rad2Deg;
+        var angle = Mathf.SmoothDampAngle(model.transform.eulerAngles.y, bugtargetangle, ref _currentVelocity, smoothTime * 1/pickupMult);
+        model.transform.rotation = Quaternion.Euler(0f, angle, 0f);
         
         //bugDirection = Vector3.Lerp(bugDirection, inputAxis.magnitude > 0 ? inputAxis : bugDirection, 5 * Time.deltaTime);
         //modelmesh.transform.rotation = Quaternion.LookRotation(bugDirection);
@@ -100,5 +103,10 @@ public class BugMovement : MonoBehaviour
     public float GetSpeedMult()
     {
         return pickupMult;
+    }
+
+    private void OnDrawGizmos()
+    {
+        
     }
 }
