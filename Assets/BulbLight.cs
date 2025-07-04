@@ -43,4 +43,21 @@ public class BulbLight : MonoBehaviour
         timer -= Time.deltaTime;
         timer = Mathf.Clamp(timer, 0f, timer);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        print("DID TRIGGER");
+        if (other.CompareTag("Gregor"))
+        {
+            lightswitch = true;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Gregor"))
+        {
+            lightswitch = true;
+        }
+    }
 }

@@ -687,10 +687,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BulbTower
       objectReference: {fileID: 0}
-    - target: {fileID: 3532486931234242741, guid: fed4e4320308e914ba5b31816c2da294, type: 3}
-      propertyPath: lightTimer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7711321295599917463, guid: fed4e4320308e914ba5b31816c2da294, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.534096
@@ -915,7 +911,7 @@ GameObject:
   - component: {fileID: 1079004281}
   m_Layer: 0
   m_Name: LilGuy (Bug)
-  m_TagString: Untagged
+  m_TagString: Gregor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
