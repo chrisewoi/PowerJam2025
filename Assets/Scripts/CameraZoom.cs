@@ -20,7 +20,7 @@ public class CameraZoom : MonoBehaviour
     {
         fovCurrent = fovDefault;
         bugMovement = FindAnyObjectByType<BugMovement>();
-        localStartingPos = transform.localPosition;
+        //localStartingPos = transform.position;
         target = transform.position;
     }
 
@@ -37,7 +37,7 @@ public class CameraZoom : MonoBehaviour
 
     private void FixedUpdate()
     {
-        target = bugMovement.transform.position + localStartingPos * zoomAmount * zoomScale;
+        target = bugMovement.transform.position + (zoomAmount +2f) * zoomScale * localStartingPos;
 
     }
 }

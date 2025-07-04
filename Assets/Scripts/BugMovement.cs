@@ -30,6 +30,7 @@ public class BugMovement : MonoBehaviour
 
     public Light underLight;
     
+    
 
     private GameObject model => transform.GetChild(0).gameObject;
 
@@ -39,7 +40,7 @@ public class BugMovement : MonoBehaviour
     {
 
         rb = GetComponent<Rigidbody>();
-        pickupPower = 1.5f;
+        pickupPower = 2f;
         bugDirection = transform.forward;
         ungroundedTrigger = false;
         groundedTrigger = !grounded;
