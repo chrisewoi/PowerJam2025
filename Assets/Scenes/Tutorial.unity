@@ -570,6 +570,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4458641528846656221, guid: b65088953466f7243a10c0fc899a7d03, type: 3}
+      propertyPath: fovMultiplier
+      value: 1.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5302655658185912863, guid: b65088953466f7243a10c0fc899a7d03, type: 3}
       propertyPath: m_Name
       value: Main Camera
