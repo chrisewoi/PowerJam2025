@@ -72,7 +72,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputAxis: {x: 0, y: 0, z: 0}
-  baseSpeed: 10
+  baseSpeed: 5
   grounded: 0
   totalSpeedMult: 0
   dampingTime: 0.75
