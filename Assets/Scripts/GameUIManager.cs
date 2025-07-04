@@ -16,6 +16,7 @@ public class GameUIManager : MonoBehaviour
     {
         pauseMenu.SetActive(false);
         gameOverMenu.SetActive(false);
+        
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -30,16 +31,6 @@ public class GameUIManager : MonoBehaviour
             Cursor.visible = true;  
             Cursor.lockState = CursorLockMode.None;
         }
-    }
-
-    private void OnTriggerStay(Collider SpawnPlug)
-    {
-        throw new NotImplementedException();
-    }
-
-    void OnTriggerExit(Collider SpawnPlug)
-    {
-        throw new NotImplementedException();
     }
 
     public void Timer()
@@ -65,6 +56,12 @@ public class GameUIManager : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene(1);
+        Time.timeScale = 1;
+    }
+
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         Time.timeScale = 1;
     }
 
