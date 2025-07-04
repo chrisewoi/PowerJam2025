@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class BulbLight : MonoBehaviour
 {
+    public float lightTimer;
+    private float timer;
+
     public bool lightswitch;
     private bool switchTrigger;
     public Material filamentOn;
@@ -25,6 +28,19 @@ public class BulbLight : MonoBehaviour
             switchTrigger = lightswitch;
             filament.material = lightswitch?filamentOn:filamentOff;
             light.enabled = lightswitch;
+
+            if (lightswitch)
+            {
+                timer = lightTimer;
+            }
         }
+
+        if (timer == 0 && lightswitch)
+        {
+            lightswitch = false;
+        }
+
+        timer -= Time.deltaTime;
+        timer = Mathf.Clamp(timer, 0f, timer);
     }
 }

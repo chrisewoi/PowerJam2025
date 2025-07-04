@@ -16,13 +16,15 @@ public class DoorLogic : MonoBehaviour
     {
         if (open)
         {
-            if(!gateLock.activeInHierarchy)
-            gateLock.SetActive(true);
-        }
-
-        if (!open && !gateLock.activeInHierarchy)
+            if(gateLock.activeInHierarchy)
+            gateLock.SetActive(false);
+        } 
+        else
         {
-
+            if (!gateLock.activeInHierarchy)
+            {
+                gateLock.SetActive(true);
+            }
         }
     }
 }

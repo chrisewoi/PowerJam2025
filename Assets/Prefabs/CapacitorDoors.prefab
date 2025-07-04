@@ -155,6 +155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21afd804a47ffe848b0996821521f2d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BulbLight: {fileID: 0}
+  gateLock: {fileID: 191000569180122360}
 --- !u!1 &2982069054553397710
 GameObject:
   m_ObjectHideFlags: 0

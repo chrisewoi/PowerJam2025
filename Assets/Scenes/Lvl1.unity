@@ -119,6 +119,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &324180651 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3532486931234242741, guid: fed4e4320308e914ba5b31816c2da294, type: 3}
+  m_PrefabInstance: {fileID: 782496005}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49ef95d78c87e7143b3e24806487dc87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,6 +686,10 @@ PrefabInstance:
     - target: {fileID: 2135012762231947061, guid: fed4e4320308e914ba5b31816c2da294, type: 3}
       propertyPath: m_Name
       value: BulbTower
+      objectReference: {fileID: 0}
+    - target: {fileID: 3532486931234242741, guid: fed4e4320308e914ba5b31816c2da294, type: 3}
+      propertyPath: lightTimer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7711321295599917463, guid: fed4e4320308e914ba5b31816c2da294, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1277,6 +1292,67 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479664415}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1525383430
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2396298120358628299, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
+      propertyPath: m_Name
+      value: CapacitorDoors
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002960011808658314, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.3956566
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002960011808658314, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002960011808658314, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.3133621
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002960011808658314, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002960011808658314, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002960011808658314, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002960011808658314, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002960011808658314, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002960011808658314, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4002960011808658314, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701043640858793015, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
+      propertyPath: BulbLight
+      value: 
+      objectReference: {fileID: 324180651}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7dae7b5ea50473a4db57fc564875e5ae, type: 3}
 --- !u!1001 &1527038191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1664,3 +1740,4 @@ SceneRoots:
   - {fileID: 1176033129}
   - {fileID: 1939958107}
   - {fileID: 782496005}
+  - {fileID: 1525383430}
