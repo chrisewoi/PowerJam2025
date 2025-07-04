@@ -5,6 +5,7 @@ public class BugMovement : MonoBehaviour
 {
     public Vector3 inputAxis;
     public float baseSpeed;
+    public bool grounded;
     private Rigidbody rb;
     private Vector2 bugDirection;
     private static int pickupCount => BugPickup.pickupCount;
@@ -22,6 +23,10 @@ public class BugMovement : MonoBehaviour
     [SerializeField] private float smoothTime;
     private float _currentVelocity;
 
+    private float groundedY;
+    private float deltaY;
+    private bool ungroundedTrigger;
+
     private GameObject model => transform.GetChild(0).gameObject;
 
 
@@ -32,6 +37,7 @@ public class BugMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         pickupPower = 1.5f;
         bugDirection = transform.forward;
+        ungroundedTrigger = false;
     }
 
     // Update is called once per frame
@@ -42,6 +48,7 @@ public class BugMovement : MonoBehaviour
         VelocityDamp();
         Gravity();
         BugDirection();
+        AirMomentum();
     }
 
     private void GetInput()
@@ -63,12 +70,14 @@ public class BugMovement : MonoBehaviour
     {
         if (inputAxis.magnitude < 0.05f)
         {
+            float currentYVel = rb.linearVelocity.y;
             //Mathf.InverseLerp(Time.time, Time.time + dampingTime, )
             velocityDamping = Mathf.InverseLerp(Time.time - dampingTime, Time.time, dampingTimer);
             velocityDamping = Mathf.Clamp01(velocityDamping);
             //print("dampingTimer: " + dampingTimer);
             Vector3 dampedVelocity = rb.linearVelocity * velocityDamping;
             rb.linearVelocity = dampedVelocity;
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, currentYVel, rb.linearVelocity.z);
             //rb.linearDamping = baseLinearDamping * 100f;
         }
         else
@@ -95,6 +104,31 @@ public class BugMovement : MonoBehaviour
         rb.AddForce(Vector3.down * gravity, ForceMode.Acceleration);
     }
 
+    private void AirMomentum()
+    {
+        if (grounded)
+        {
+            ungroundedTrigger = true;
+            groundedY = rb.position.y;
+
+        } else
+        {
+            if (ungroundedTrigger)
+            {    //triggers only once when ungrounded
+                ungroundedTrigger = false;
+                deltaY = rb.position.y - groundedY;
+            }
+            rb.AddForce(deltaY * Vector3.up, ForceMode.Force);
+
+            /*if (ungroundedTrigger) //triggers only once when ungrounded
+            {
+                ungroundedTrigger = false;
+                deltaY = rb.position.y - groundedY;
+                rb.AddForce((rb.position.y - groundedY) * 100f * Vector3.up, ForceMode.Impulse);
+            }*/
+        }
+    }
+
     public float GetSpeed()
     {
         return rb.linearVelocity.magnitude;
@@ -108,5 +142,29 @@ public class BugMovement : MonoBehaviour
     private void OnDrawGizmos()
     {
         
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            grounded = true;
+        }
+    }
+
+    private void OnCollisionExit(Collision other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            grounded = false;
+        }
+    }
+
+    private void OnCollisionStay(Collision other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            grounded = true;
+        }
     }
 }
