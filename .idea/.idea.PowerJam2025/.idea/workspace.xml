@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bfab4b5-8bd8-4a9d-94be-3f1988e6ff4b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PowerJam2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PowerJam2025/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lvl2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lvl2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lvl2.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lvl2.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameUIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/W95FA SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/W95FA SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Freds-branch-(forfred)",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,6 +96,7 @@
       <workItem from="1751529114089" duration="14034000" />
       <workItem from="1751582128813" duration="35000" />
       <workItem from="1751607089867" duration="521000" />
+      <workItem from="1751645657567" duration="748000" />
     </task>
     <servers />
   </component>
