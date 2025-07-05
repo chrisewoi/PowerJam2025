@@ -32,8 +32,7 @@ public class BugMovement : MonoBehaviour
     
 
     private GameObject model => transform.GetChild(0).gameObject;
-    [SerializeField] Transform bugRoot;
-    [SerializeField] Transform tailRoot;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -56,22 +55,6 @@ public class BugMovement : MonoBehaviour
         BugDirection();
         AirMomentum();
         DownLight();
-    }
-
-    void LateUpdate()
-    {
-        Vector3 towardBug = bugRoot.position - tailRoot.position;
-
-        Quaternion targetRotation = Quaternion.LookRotation(
-            towardBug,
-            transform.up
-         );
-
-       // tailRoot.rotation = Quaternion.Slerp(
-       //     tailRoot.rotation,
-       //     targetRotation,
-       //     1 - Mathf.Exp(-_currentVelocity * Time.deltaTime)
-       // );
     }
 
     private void GetInput()
@@ -115,9 +98,8 @@ public class BugMovement : MonoBehaviour
         if (inputAxis.sqrMagnitude == 0) return;
         
         var bugtargetangle = Mathf.Atan2(inputAxis.x, inputAxis.y) * Mathf.Rad2Deg;
-        var angle = Mathf.SmoothDampAngle(bugRoot.transform.eulerAngles.y, bugtargetangle, ref _currentVelocity, smoothTime * 1/pickupMult);
-
-        bugRoot.transform.rotation = Quaternion.Euler(0f, angle, 0f);
+        var angle = Mathf.SmoothDampAngle(model.transform.eulerAngles.y, bugtargetangle, ref _currentVelocity, smoothTime * 1/pickupMult);
+        model.transform.rotation = Quaternion.Euler(0f, angle, 0f);
         
         //bugDirection = Vector3.Lerp(bugDirection, inputAxis.magnitude > 0 ? inputAxis : bugDirection, 5 * Time.deltaTime);
         //modelmesh.transform.rotation = Quaternion.LookRotation(bugDirection);
