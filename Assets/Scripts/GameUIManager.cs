@@ -61,13 +61,15 @@ public class GameUIManager : MonoBehaviour
 
     public void NextLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(0);
         Time.timeScale = 1;
     }
 
     public void MainMenuB()
     {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1;
     }
 
     public void PauseGameB()
