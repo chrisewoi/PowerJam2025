@@ -40,7 +40,7 @@ public class BugMovement : MonoBehaviour
     {
 
         rb = GetComponent<Rigidbody>();
-        pickupPower = 2f;
+        pickupPower = 1.88f;
         bugDirection = transform.forward;
         ungroundedTrigger = false;
         groundedTrigger = !grounded;
