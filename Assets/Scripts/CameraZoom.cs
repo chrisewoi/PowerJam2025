@@ -26,7 +26,7 @@ public class CameraZoom : MonoBehaviour
 
     void LateUpdate()
     {
-        zoomAmount = bugMovement.GetSpeedMult();
+        zoomAmount = bugMovement.GetSpeedMult() /2f;
         //transform.position = transform.TransformVector(bugMovement.transform.position);
 
         //target += transform.TransformDirection(zoomAmount * zoomScale * -Vector3.forward);

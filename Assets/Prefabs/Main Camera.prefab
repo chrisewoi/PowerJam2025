@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61a939f57c21b794886ca6b21fe9acce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localStartingPos: {x: 0, y: 0, z: 0}
+  localStartingPos: {x: 0, y: 10, z: -14}
   fovMultiplier: 1.1
   zoomAmount: 0
   zoomScale: 0.1
