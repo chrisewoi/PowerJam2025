@@ -647,6 +647,14 @@ PrefabInstance:
       propertyPath: fovMultiplier
       value: 1.1
       objectReference: {fileID: 0}
+    - target: {fileID: 4458641528846656221, guid: b65088953466f7243a10c0fc899a7d03, type: 3}
+      propertyPath: localStartingPos.y
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458641528846656221, guid: b65088953466f7243a10c0fc899a7d03, type: 3}
+      propertyPath: localStartingPos.z
+      value: -17
+      objectReference: {fileID: 0}
     - target: {fileID: 5302655658185912863, guid: b65088953466f7243a10c0fc899a7d03, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -6857,6 +6865,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 570234536671005622, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_UseLimits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 570234536671005622, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_ExtendedLimits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 958236677821263774, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2754299435895663484, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.0000005
@@ -6897,9 +6917,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2986673125623310541, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_UseLimits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2986673125623310541, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_ExtendedLimits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055909901784294397, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_UseLimits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055909901784294397, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_ExtendedLimits
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3246224630152858280, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
       propertyPath: m_Name
       value: PLAYERBugModel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4097086536022689407, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108984533675594702, guid: 3f04613e1363bd148bf70db9c0855bd5, type: 3}
+      propertyPath: m_ImplicitTensor
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
