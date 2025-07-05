@@ -48,14 +48,18 @@ public class BugMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        GetInput();
         SetVelocity();
         VelocityDamp();
         Gravity();
-        BugDirection();
         AirMomentum();
+    }
+
+    private void Update()
+    {
+        GetInput();
+        BugDirection();
         DownLight();
     }
 
