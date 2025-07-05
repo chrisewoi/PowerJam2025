@@ -889,6 +889,7 @@ GameObject:
   - component: {fileID: 766888550}
   - component: {fileID: 766888552}
   - component: {fileID: 766888551}
+  - component: {fileID: 766888553}
   m_Layer: 5
   m_Name: MainMenuPanel
   m_TagString: Untagged
@@ -905,7 +906,7 @@ RectTransform:
   m_GameObject: {fileID: 766888549}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1220390711}
@@ -944,7 +945,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 6.08
+  m_PixelsPerUnitMultiplier: 60.8
 --- !u!222 &766888552
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -953,6 +954,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766888549}
   m_CullTransparentMesh: 1
+--- !u!114 &766888553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766888549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a50b63252df0c384cb50183ea901b737, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 2174
+  speed: 25
+  acceleration: 50
 --- !u!1 &788221269
 GameObject:
   m_ObjectHideFlags: 0
